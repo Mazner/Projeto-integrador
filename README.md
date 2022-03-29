@@ -18,8 +18,10 @@ Scrum master :Guilherme
 
 Contato dos membros: 
 
-Guilherme Fernandes - guilhermefernandes.2002@alunos.utfpr.edu.br - telefone (14)998567551.
-Iago Sasaki Ramos - iagosasaki@alunos.utfpr.edu.br - telefone (18)981277027.
+Guilherme Fernandes - guilhermefernandes.2002@alunos.utfpr.edu.br - telefone (14)998567551;
+
+Iago Sasaki Ramos - iagosasaki@alunos.utfpr.edu.br - telefone (18)981277027;
+
 Marcos Bezner Rampaso - rampaso@alunos.utfpr.edu.br - telefone: (11)99111-9255;
 
 
