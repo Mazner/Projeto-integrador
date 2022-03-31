@@ -1,4 +1,4 @@
-# Projeto-integrador
+Cancel changes# Projeto-integrador
 Repositório da criação de um aplicativo de suporte aos comércios locais
 
 Nome do programa: Quebra meu galho
@@ -13,6 +13,7 @@ Como montar e executar o programa: em andamento…
 Desenvolvedores : Guilherme , Marcos , Iago 
 
 Product owner : Marcos
+
 Scrum master :Guilherme 
 
 
