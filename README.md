@@ -6,7 +6,7 @@ Descrição do programa: Aplicação web que recomenda, e exibe serviços inform
 
 Funcionalidades: Mostrar os serviços disponíveis, registrar pessoas as pessoas que vão oferecer esses serviços, mostrar a localização e a avaliação das mesmas. Mostrar o preço do serviço oferecido, se possível. Facilitar o contato entre usuário e serviço;
 
-Tecnologias: Linguagem: Node.js, Vue, Nosql, HTML, Css;
+Tecnologias: Linguagem: Node.js, React, Nosql, HTML, Css;
 
 Como montar e executar o programa: em andamento…
 
