@@ -1,56 +1,43 @@
-Cancel changes# Projeto-integrador
-Repositório da criação de um aplicativo de suporte aos comércios locais
+# Primeiro baixe e instale o [node.js](https://nodejs.org/en/download/) e o [git](https://git-scm.com/downloads)
 
-Nome do programa: Quebra meu galho
-Descrição do programa: Aplicação web que recomenda, e exibe serviços informais, tais como, cozinheiros locais, confeiteiros locais, construção e beleza, a fim de influenciar a economia local, mostrando a avaliação da pessoa, tal como sua localização e proximidade com o cliente que vai requisitar o serviço;
+## No node instale o yarn globalmente com o comando
+```npm install --global yarn```
 
-Funcionalidades: Mostrar os serviços disponíveis, registrar pessoas as pessoas que vão oferecer esses serviços, mostrar a localização e a avaliação das mesmas. Mostrar o preço do serviço oferecido, se possível. Facilitar o contato entre usuário e serviço;
+## Instalando o yarn no windows!
+As vezes o windows impede que os comandos do yarn sejam executados.
+Para isso entre no Windows PowerShell como administrador e rode os seguintes comandos de uma vez...
 
-Tecnologias: Linguagem: Node.js, React, Nosql, HTML, Css;
+```Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted```
 
-Como montar e executar o programa: em andamento…
+Em teoria, isso é o suficiente para os scripts yarn executarem
 
-Desenvolvedores : Guilherme , Marcos , Iago 
+## Configurando a ferramenta Git
+`NOTA:` Tudo que está entre tags, deve ser substítuido pelos itens respectivos, dentro das mesmas. Utilize o Git Bash para as configurações.
+Para as configurações iniciais execute:
+  Comandos usados para indentificar os participantes na hora de um commit
+  
+```git config --global user.name "<nome do usuário>"```
 
-Product owner : Marcos
+```git config --global user.email <email do GitHub>```
 
-Scrum master :Guilherme 
+### Geração da chave SSH para clone de repositórios remotos:
+```ssh-keygen -t rsa -b 4096 -C "<email do GitHub>"```
 
+### Pegando a chave SSH:
+`NOTA:` Essa chave deve ser copiada no início ao fim (até o seu email) e deve ser colada no [SSH and GPG keys](https://github.com/settings/ssh/new) do GitHub
 
-Contato dos membros: 
+```cat ~/.ssh/id_rsa.pub```
 
-Guilherme Fernandes - guilhermefernandes.2002@alunos.utfpr.edu.br - telefone (14)998567551;
+### Inicializando o agente SSH:
+```eval `ssh-agent -s` ```
 
-Iago Sasaki Ramos - iagosasaki@alunos.utfpr.edu.br - telefone (18)981277027;
+```ssh-add ~/.ssh/id_rsa```
 
-Marcos Bezner Rampaso - rampaso@alunos.utfpr.edu.br - telefone: (11)99111-9255;
+## Pronto está tudo configurado!!
 
+Agora para clonar o repositório cole no terminal:
 
-Histórias de usuário:
+```git clone git@github.com:William-Reticena/programacao_de_aplicativos_front_end.git```
 
-Como Lucas, eu quero contratar um confeiteiro para a minha festa de aniversário;
-
-Como Carlos, eu quero poder vender meus serviços de construção;
-
-Como Ana, eu quero poder ver salões de beleza com uma boa avaliação por perto;
-
-Como João, eu quero poder contratar marceneiros à uma distância de até 3km de casa;
-
-Como Paulo, eu quero poder contratar o serviço de construção mais barato da minha cidade;
-
-Como Laura, eu quero poder listar meu restaurante no meu bairro;
-
-Como Ian, eu quero poder listar minhas informações de contato, e poder ver minha avaliação.
-
-
-
-Definições: 
-
-Contratar: Poder identificar o serviço oferecido pelo potencial prestador de serviço, a partir disso, poder entrar em contato, e realizar o serviço;
-
-Identificar: Poder pesquisar, dentre os serviços requisitados e poder escolher de acordo com a valiação, distância e preço;
- 
-Vender: Poder anunciar seus serviços;
-
-Anunciar: Poder cadastrar informações de contato, preços e serviços que presta;
+Na pasta do repositório clonado apenas digite `yarn` e ele irá fazer a instalação de todas as dependências 
 
