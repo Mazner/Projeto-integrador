@@ -1,5 +1,19 @@
 import React from "react";
+import './Index.css'
+import CriaAnuncioForm from "../../components/CriaAnuncioForm";
+import { useFormik } from 'formik'
+import { Header, Footer } from "../../components";
+
 
 export function Cadastro () {
-  return <h1>Você está no cadastro!</h1>
+
+  const formik = useFormik({})
+
+  return (
+    <div>
+      <CriaAnuncioForm/>
+    </div>
+  )
 };
+
+export default Cadastro

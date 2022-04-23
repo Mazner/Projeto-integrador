@@ -15,7 +15,7 @@ export function Footer () {
             <ul style={{listStyleType:"none", width:"30%" }}>
                 <h1 style={{}}>Serviços</h1>
                 <li>Buscar Serviço</li>
-                <li>Anunciar Serviço</li>
+                <li>Anuncie seu serviço</li>
             </ul>
             <ul style={{listStyleType:"none", width:"30%" }}>
                 <h1 style={{}}>Social Media</h1>

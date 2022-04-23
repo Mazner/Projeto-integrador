@@ -14,6 +14,8 @@ export function Home () {
                 variant="h1"
                   sx={{ fontSize: "48px", textAlign:"right", width:"50%", height:"110px"}}>
                     "Quebra Meu Galho"
+                    <iframe title="map" class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3643.1649489867455!2d-52.38915795000186!3d-24.060495186021026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ed756613064859%3A0xc12ba615c30491ed!2sUTFPR%20Universidade%20Tecnol%C3%B3gica%20Federal%20Do%20Paran%C3%A1!5e0!3m2!1spt-BR!2sbr!4v1649035605632!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy"></iframe>
+
               </Typography>
           </div>
         </Grid>
@@ -23,7 +25,9 @@ export function Home () {
               <Typography
                 variant="h2"
                   sx={{ fontSize: "20px", position:"relative" }}>
-                    Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.        
+                    Bem vindo ao Quebra meu Galho! Neste site, nós iremos auxiliá-lo a buscar serviços de seu interesse próximos à sua área;<br></br>
+                    Também iremos ajudá-lo a promover seus serviços na sua região!<br></br> Venha fazer parte desta árvore de oportunidades, entre para a nossa família!<br></br>
+                    Utilize o botão abaixo para buscar algum serviço de sua escolha!       
               </Typography>
               <div style={{ textAlign: "center"}}>
                 <Button size ="large" color="success" variant="contained">"Buscar Serviço"</Button>
