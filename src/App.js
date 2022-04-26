@@ -2,6 +2,7 @@ import React from "react";
 import { createGlobalStyle } from 'styled-components';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { AppRoutes } from "./routes";
+import FormikContainer from "./components/FormikContainer";
 
 function App() {
   return (
