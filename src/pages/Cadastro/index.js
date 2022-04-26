@@ -10,9 +10,13 @@ export function Cadastro () {
   const formik = useFormik({})
 
   return (
-    <div>
+    <>
+    <Header/>
+    <div style={{display: "flex", justifyContent : "center", flexDirection : "row", justifyContent :"space-around" }}>
       <CriaAnuncioForm/>
     </div>
+    <Footer/>
+    </>
   )
 };
 
